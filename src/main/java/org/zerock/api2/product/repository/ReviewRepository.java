@@ -1,4 +1,7 @@
 package org.zerock.api2.product.repository;
 
-public interface ReviewRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.zerock.api2.product.domain.Review;
+
+public interface ReviewRepository extends JpaRepository<Review, Long> {
 }

@@ -1,4 +1,4 @@
-package org.zerock.api1.dto;
+package org.zerock.api2.common.dto;
 
 import lombok.Builder;
 import lombok.Data;
